@@ -160,17 +160,17 @@ class ViewController: NSViewController {
           
             if(key == "BTC") {
                 if(self.coinButtonView1 != nil) {
-                    self.coinButtonView1.title = "\(key) \(self.formatNumber(number: value[toArray[counter]]! as! NSNumber))"
+                    self.coinButtonView1.title = "\(self.formatNumber(number: value[toArray[counter]]! as! NSNumber))"
                 }
             }
             if(key == "LTC") {
                 if(self.coinButtonView2 != nil) {
-                    self.coinButtonView2.title = "\(key) \(self.formatNumber(number: value[toArray[counter]]! as! NSNumber))"
+                    self.coinButtonView2.title = "\(self.formatNumber(number: value[toArray[counter]]! as! NSNumber))"
                 }
             }
             if(key == "ETH") {
                 if(self.coinButtonView3 != nil) {
-                   self.coinButtonView3.title = "\(key) \(self.formatNumber(number: value[toArray[counter]]! as! NSNumber))"
+                   self.coinButtonView3.title = "\(self.formatNumber(number: value[toArray[counter]]! as! NSNumber))"
                 }
                 
             }
@@ -188,14 +188,14 @@ class ViewController: NSViewController {
             print("\(key) \(String(describing: value[toArray[counter]]))")
             if(key == "BTC") {
                 
-                self.coinButtonView1.title = "\(key) \(self.formatNumber(number: value[toArray[counter]]! as! NSNumber))"
+                self.coinButtonView1.title = "\(self.formatNumber(number: value[toArray[counter]]! as! NSNumber))"
 
             }
             if(key == "LTC") {
-                self.coinButtonView2.title = "\(key) \(self.formatNumber(number: value[toArray[counter]]! as! NSNumber))"
+                self.coinButtonView2.title = "\(self.formatNumber(number: value[toArray[counter]]! as! NSNumber))"
             }
             if(key == "ETH") {
-                self.coinButtonView3.title = "\(key) \(self.formatNumber(number: value[toArray[counter]]! as! NSNumber))"
+                self.coinButtonView3.title = "\(self.formatNumber(number: value[toArray[counter]]! as! NSNumber))"
             }
         }
     }

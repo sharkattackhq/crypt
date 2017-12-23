@@ -711,14 +711,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="308"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="104" horizontalPageScroll="10" verticalLineScroll="104" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4tO-I2-J6D">
+                            <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4tO-I2-J6D">
                                 <rect key="frame" x="359" y="20" width="101" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <clipView key="contentView" ambiguous="YES" id="G2V-ZW-w0V">
                                     <rect key="frame" x="1" y="1" width="99" height="38"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="102" rowSizeStyle="automatic" viewBased="YES" id="Ddf-jm-6r7">
+                                        <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" viewBased="YES" id="Ddf-jm-6r7">
                                             <rect key="frame" x="0.0" y="0.0" width="99" height="38"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <size key="intercellSpacing" width="3" height="2"/>
@@ -743,7 +743,7 @@
                                     </subviews>
                                 </clipView>
                                 <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="wNL-y9-YYs">
-                                    <rect key="frame" x="1" y="148" width="74" height="16"/>
+                                    <rect key="frame" x="1" y="-15" width="0.0" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="21a-Qm-9QA">
@@ -800,7 +800,7 @@
                                 <rect key="frame" x="18" y="68" width="442" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" controlSize="mini" sendsActionOnEndEditing="YES" id="bIJ-ZK-O6C">
-                                    <font key="font" metaFont="system" size="11"/>
+                                    <font key="font" metaFont="smallSystem"/>
                                     <string key="title">More features will be added soon, like choosing your own fiat and cryptocurrencies, and pressing on the crypto currency button to see more detail.</string>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -810,7 +810,7 @@
                                 <rect key="frame" x="18" y="146" width="442" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" controlSize="mini" sendsActionOnEndEditing="YES" id="Dps-JR-beG">
-                                    <font key="font" metaFont="system" size="11"/>
+                                    <font key="font" metaFont="smallSystem"/>
                                     <string key="title">Once the data has loaded, press on the fiat currency symbol to cycle through the currencies. THe currecy data is updated automatically.</string>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -820,7 +820,7 @@
                                 <rect key="frame" x="18" y="108" width="442" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" controlSize="mini" sendsActionOnEndEditing="YES" id="Jb4-1F-ZQy">
-                                    <font key="font" metaFont="system" size="11"/>
+                                    <font key="font" metaFont="smallSystem"/>
                                     <string key="title">I'm a web developer, not an OSX developer, so building even this basic functionality was quite hard! Contributers are very welcome (github)</string>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -849,42 +849,42 @@
                             <touchBarSpacerItem identifier="NSTouchBarItemIdentifierFixedSpaceSmall" id="E2Z-H2-cWC"/>
                             <touchBarItem id="rwL-G9-Cwd">
                                 <viewController key="viewController" id="9dE-Z7-bMI">
-                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="al4-r3-P4Y">
-                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                    <button key="view" verticalHuggingPriority="750" misplaced="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="al4-r3-P4Y">
+                                        <rect key="frame" x="0.0" y="0.0" width="108" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <buttonCell key="cell" type="push" title="BTC..." bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Wec-5p-fXA">
+                                        <buttonCell key="cell" type="push" title="BitCoin" bezelStyle="rounded" image="bitcoin-1" imagePosition="left" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Wec-5p-fXA">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" usesAppearanceFont="YES"/>
                                         </buttonCell>
                                     </button>
                                 </viewController>
-                                <size key="designTimeSize" width="72" height="30"/>
+                                <size key="designTimeSize" width="108" height="30"/>
                             </touchBarItem>
                             <touchBarItem id="HEZ-lN-Zgm">
                                 <viewController key="viewController" id="Zxc-KB-qiL">
-                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Hst-FO-A6P">
-                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                    <button key="view" verticalHuggingPriority="750" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hst-FO-A6P">
+                                        <rect key="frame" x="0.0" y="0.0" width="126" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <buttonCell key="cell" type="push" title="LTC..." bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="P1P-Zu-7ul">
+                                        <buttonCell key="cell" type="push" title="LiteCoin" bezelStyle="rounded" image="litecoin" imagePosition="left" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="P1P-Zu-7ul">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" usesAppearanceFont="YES"/>
                                         </buttonCell>
                                     </button>
                                 </viewController>
-                                <size key="designTimeSize" width="72" height="30"/>
+                                <size key="designTimeSize" width="126" height="30"/>
                             </touchBarItem>
                             <touchBarItem id="dxz-9E-PuZ">
                                 <viewController key="viewController" id="D4j-9E-9Xb">
-                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HDc-mK-bxx">
-                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                    <button key="view" verticalHuggingPriority="750" misplaced="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HDc-mK-bxx">
+                                        <rect key="frame" x="0.0" y="0.0" width="144" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <buttonCell key="cell" type="push" title="ETH..." bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Xwe-iA-pBo">
+                                        <buttonCell key="cell" type="push" title="Ethereum" bezelStyle="rounded" image="ether" imagePosition="left" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Xwe-iA-pBo">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" usesAppearanceFont="YES"/>
                                         </buttonCell>
                                     </button>
                                 </viewController>
-                                <size key="designTimeSize" width="72" height="30"/>
+                                <size key="designTimeSize" width="144" height="30"/>
                             </touchBarItem>
                         </touchBarItems>
                         <connections>
@@ -905,4 +905,9 @@
             <point key="canvasLocation" x="75" y="674"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bitcoin-1" width="36" height="36"/>
+        <image name="ether" width="36" height="36"/>
+        <image name="litecoin" width="36" height="36"/>
+    </resources>
 </document>
