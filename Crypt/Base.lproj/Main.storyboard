@@ -849,42 +849,42 @@
                             <touchBarSpacerItem identifier="NSTouchBarItemIdentifierFixedSpaceSmall" id="E2Z-H2-cWC"/>
                             <touchBarItem id="rwL-G9-Cwd">
                                 <viewController key="viewController" id="9dE-Z7-bMI">
-                                    <button key="view" verticalHuggingPriority="750" misplaced="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="al4-r3-P4Y">
-                                        <rect key="frame" x="0.0" y="0.0" width="108" height="30"/>
+                                    <button key="view" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="al4-r3-P4Y">
+                                        <rect key="frame" x="0.0" y="0.0" width="98" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <buttonCell key="cell" type="push" title="BitCoin" bezelStyle="rounded" image="bitcoin-1" imagePosition="left" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Wec-5p-fXA">
+                                        <buttonCell key="cell" type="push" title="BitCoin" bezelStyle="rounded" image="bitcoin-1" imagePosition="left" alignment="left" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Wec-5p-fXA">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" usesAppearanceFont="YES"/>
                                         </buttonCell>
                                     </button>
                                 </viewController>
-                                <size key="designTimeSize" width="108" height="30"/>
+                                <size key="designTimeSize" width="98" height="30"/>
                             </touchBarItem>
                             <touchBarItem id="HEZ-lN-Zgm">
                                 <viewController key="viewController" id="Zxc-KB-qiL">
-                                    <button key="view" verticalHuggingPriority="750" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hst-FO-A6P">
+                                    <button key="view" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hst-FO-A6P">
+                                        <rect key="frame" x="0.0" y="0.0" width="109" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="LiteCoin" bezelStyle="rounded" image="litecoin" imagePosition="left" alignment="left" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="P1P-Zu-7ul">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                </viewController>
+                                <size key="designTimeSize" width="109" height="30"/>
+                            </touchBarItem>
+                            <touchBarItem id="dxz-9E-PuZ">
+                                <viewController key="viewController" id="D4j-9E-9Xb">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HDc-mK-bxx">
                                         <rect key="frame" x="0.0" y="0.0" width="126" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <buttonCell key="cell" type="push" title="LiteCoin" bezelStyle="rounded" image="litecoin" imagePosition="left" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="P1P-Zu-7ul">
+                                        <buttonCell key="cell" type="push" title="Ethereum" bezelStyle="rounded" image="ether" imagePosition="left" alignment="left" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Xwe-iA-pBo">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                            <font key="font" usesAppearanceFont="YES"/>
+                                            <font key="font" metaFont="system"/>
                                         </buttonCell>
                                     </button>
                                 </viewController>
                                 <size key="designTimeSize" width="126" height="30"/>
-                            </touchBarItem>
-                            <touchBarItem id="dxz-9E-PuZ">
-                                <viewController key="viewController" id="D4j-9E-9Xb">
-                                    <button key="view" verticalHuggingPriority="750" misplaced="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HDc-mK-bxx">
-                                        <rect key="frame" x="0.0" y="0.0" width="144" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <buttonCell key="cell" type="push" title="Ethereum" bezelStyle="rounded" image="ether" imagePosition="left" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Xwe-iA-pBo">
-                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                            <font key="font" usesAppearanceFont="YES"/>
-                                        </buttonCell>
-                                    </button>
-                                </viewController>
-                                <size key="designTimeSize" width="144" height="30"/>
                             </touchBarItem>
                         </touchBarItems>
                         <connections>
