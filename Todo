@@ -1,0 +1,6 @@
+- Add input boxes for fiat and crypto currencies so users can select which are displayed. (I haven't figured out how to programmatically add touch bar buttons which is why I haven't done this yet.)
+- Make the status bar icon bring the window to front
+- Add currency icons and colors to the buttons
+- Allow user to press on crypto currency to get more info (percentage change in last minute/hour/day/week...)
+- Add button to touch bar control strip (right hand side of the touch bar) so that the info can be seen even when the app isn't the active window. There's no public API for adding buttons to the control strip, but it can apparently be done (https://github.com/Hammerspoon/hammerspoon/issues/1096)
+- Allow users to input their own holdings of each currency, and then display the total worth in fiat.
