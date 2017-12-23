@@ -13,6 +13,9 @@
 		848F2B0A1FEA028A007FF192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F2B081FEA028A007FF192 /* Main.storyboard */; };
 		848F2B161FEA028B007FF192 /* CryptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F2B151FEA028B007FF192 /* CryptTests.swift */; };
 		848F2B211FEA028B007FF192 /* CryptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F2B201FEA028B007FF192 /* CryptUITests.swift */; };
+		848F2B301FEA02EA007FF192 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F2B2F1FEA02EA007FF192 /* Currency.swift */; };
+		84BA1E621FEB5222000EEFA6 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA1E611FEB5222000EEFA6 /* Wallet.swift */; };
+		84BA1E641FEB55BD000EEFA6 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA1E631FEB55BD000EEFA6 /* Balance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		848F2B1C1FEA028B007FF192 /* CryptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848F2B201FEA028B007FF192 /* CryptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptUITests.swift; sourceTree = "<group>"; };
 		848F2B221FEA028B007FF192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848F2B2F1FEA02EA007FF192 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		84BA1E611FEB5222000EEFA6 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		84BA1E631FEB55BD000EEFA6 /* Balance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 		848F2B011FEA028A007FF192 /* Crypt */ = {
 			isa = PBXGroup;
 			children = (
+				848F2B2E1FEA02D3007FF192 /* Models */,
 				848F2B021FEA028A007FF192 /* AppDelegate.swift */,
 				848F2B041FEA028A007FF192 /* ViewController.swift */,
 				848F2B061FEA028A007FF192 /* Assets.xcassets */,
@@ -122,6 +129,16 @@
 				848F2B221FEA028B007FF192 /* Info.plist */,
 			);
 			path = CryptUITests;
+			sourceTree = "<group>";
+		};
+		848F2B2E1FEA02D3007FF192 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				848F2B2F1FEA02EA007FF192 /* Currency.swift */,
+				84BA1E611FEB5222000EEFA6 /* Wallet.swift */,
+				84BA1E631FEB55BD000EEFA6 /* Balance.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +210,11 @@
 					848F2AFE1FEA028A007FF192 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					848F2B101FEA028B007FF192 = {
 						CreatedOnToolsVersion = 9.2;
@@ -257,6 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BA1E621FEB5222000EEFA6 /* Wallet.swift in Sources */,
+				84BA1E641FEB55BD000EEFA6 /* Balance.swift in Sources */,
+				848F2B301FEA02EA007FF192 /* Currency.swift in Sources */,
 				848F2B051FEA028A007FF192 /* ViewController.swift in Sources */,
 				848F2B031FEA028A007FF192 /* AppDelegate.swift in Sources */,
 			);

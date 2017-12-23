@@ -10,11 +10,20 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-
+    
+    let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
+    let menu = NSMenu()
+    var viewController = ViewController()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        if let button = statusItem.button {
+            button.image = NSImage(named: NSImage.Name(rawValue: "BitCoinStatusIcon") )
+            button.action = #selector(statusButtonClicked(_:))
+        }
+    }
+    
+    @objc func statusButtonClicked(_ sender: Any?){
+        print("Well done")
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
